@@ -1,0 +1,1717 @@
+[ERROR] 2019-10-22 02:43:48,604 | /home/lenovo/frappe-training1/apps/frappe/frappe/app.py:
+Site: mdb.training1.local
+Form Dict: {
+ "cmd": "frappe.realtime.get_user_info",
+ "data": []
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/app.py", line 66, in application
+    response = frappe.api.handle()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/api.py", line 56, in handle
+    return frappe.handler.handle()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/__init__.py", line 1019, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+[ERROR] 2019-10-22 02:43:48,877 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/app.py", line 66, in application
+    response = frappe.api.handle()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/api.py", line 56, in handle
+    return frappe.handler.handle()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/__init__.py", line 1019, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[DEBUG] 2019-10-22 09:41:33,429 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 09:42:33,625 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 09:43:33,779 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 09:44:33,929 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 09:45:34,054 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 09:46:34,179 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 09:47:34,317 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 09:48:34,463 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 09:49:34,613 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 09:50:35,050 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 09:51:35,454 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 09:52:35,601 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 09:53:36,052 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 09:54:36,487 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 09:55:36,924 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 09:56:37,401 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 09:57:38,086 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 09:58:38,512 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 09:59:38,649 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 10:00:38,819 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 10:01:38,991 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 10:02:39,117 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 10:03:39,821 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 10:04:40,282 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 10:05:40,729 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 10:06:41,432 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 10:07:41,881 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 10:08:42,030 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 10:09:42,568 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 10:10:45,418 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 10:11:45,697 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 10:12:45,950 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[ERROR] 2019-10-22 10:47:11,409 | /home/lenovo/frappe-training1/apps/frappe/frappe/app.py:
+Site: mdb.training1.local
+Form Dict: {
+ "cmd": "frappe.realtime.get_user_info",
+ "data": []
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/app.py", line 66, in application
+    response = frappe.api.handle()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/api.py", line 56, in handle
+    return frappe.handler.handle()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/__init__.py", line 1019, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+[ERROR] 2019-10-22 10:47:11,516 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/app.py", line 66, in application
+    response = frappe.api.handle()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/api.py", line 56, in handle
+    return frappe.handler.handle()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/__init__.py", line 1019, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[DEBUG] 2019-10-22 10:48:08,397 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 10:49:08,514 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 10:50:08,640 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 10:51:08,754 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 10:52:08,929 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 10:53:09,050 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 10:54:09,176 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 10:55:09,311 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 10:56:09,457 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 10:57:09,573 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 10:58:10,032 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 10:59:10,469 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:00:10,971 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:01:11,421 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:02:11,857 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:03:12,294 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:04:12,760 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:05:13,213 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:06:13,350 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:07:13,797 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:08:13,949 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:09:14,383 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:10:14,831 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:11:14,957 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:12:15,101 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:13:15,552 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:14:15,988 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:15:16,437 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:16:16,927 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:17:17,355 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:18:17,484 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:19:17,741 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:20:17,885 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:21:18,325 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:22:18,451 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:23:18,576 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:24:18,742 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:25:18,861 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:26:18,987 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:27:19,124 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:28:19,279 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:29:19,410 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:30:19,538 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:31:19,663 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:32:19,872 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:33:20,026 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:34:20,151 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:35:20,589 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:36:21,064 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:37:21,274 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:38:21,745 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:39:21,870 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:40:22,022 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:41:22,145 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:42:22,603 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:43:23,040 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:44:23,176 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:45:23,292 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:46:23,739 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:47:24,299 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:48:24,446 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:49:24,895 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:50:25,021 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:51:25,457 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:52:25,601 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:53:25,720 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:54:25,845 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:55:25,972 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:56:26,116 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:57:26,224 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:58:26,349 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 11:59:26,475 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:00:28,874 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:01:35,782 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:02:35,978 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:03:36,414 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:04:36,873 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:05:37,312 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:06:37,426 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:07:37,796 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:08:37,943 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:09:38,059 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:10:38,507 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:11:38,633 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:12:38,791 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:13:38,918 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:14:39,047 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:15:39,194 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:16:39,657 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:17:40,091 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:18:40,549 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:19:40,998 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:20:41,456 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:21:41,894 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:22:42,331 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:23:42,467 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:24:42,933 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:25:43,375 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:26:43,812 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:27:44,249 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:28:44,718 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:29:45,167 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:30:45,615 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:31:46,052 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:32:46,516 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:33:46,948 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:34:47,385 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:35:47,821 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:36:48,296 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:37:48,739 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:38:49,187 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:39:49,624 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:40:50,083 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:41:50,531 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:42:50,980 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:43:51,427 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:44:51,902 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:45:52,345 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:46:52,782 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:47:53,209 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:48:53,335 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:49:53,783 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:50:53,908 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:51:54,033 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:52:54,612 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:53:54,731 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:54:54,893 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:55:55,382 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:56:55,575 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:57:55,711 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:58:55,825 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 12:59:56,096 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:00:56,284 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:01:56,420 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:02:56,556 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:03:56,674 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:04:56,826 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:05:57,080 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:06:57,250 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:07:57,376 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:08:57,568 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:09:58,005 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:10:58,610 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:11:59,047 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:12:59,218 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:13:59,354 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:14:59,491 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:15:59,617 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:16:59,781 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:17:59,914 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:19:00,350 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:20:00,809 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:21:01,246 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:22:01,374 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:23:01,622 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:24:02,079 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:25:02,518 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:26:02,654 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:27:03,092 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:28:03,259 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:29:03,389 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:30:03,526 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:31:03,673 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:32:03,833 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:33:04,280 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:34:04,729 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:35:05,166 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:36:05,638 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:37:06,083 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:38:06,220 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:39:06,344 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:40:06,822 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:41:07,263 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:42:07,811 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:43:07,937 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:44:08,407 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:45:08,543 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:46:08,980 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:47:09,418 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:48:09,886 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:49:09,992 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:50:10,139 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:51:10,566 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:52:11,016 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:53:11,117 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:54:11,555 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:55:12,001 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:56:12,461 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:57:12,898 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:58:13,335 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 13:59:13,771 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:00:13,953 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:01:14,114 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:02:14,550 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:03:14,687 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:04:14,843 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:05:15,006 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:06:15,187 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:07:15,979 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:08:16,379 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:09:16,898 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:10:17,334 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:11:17,771 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:12:18,231 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:13:18,667 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:14:19,104 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:15:19,230 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:16:19,694 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:17:19,882 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:18:20,320 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:19:20,758 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:20:21,233 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:21:21,343 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:22:21,782 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:23:22,217 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:24:22,377 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:25:22,825 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:26:22,950 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:27:23,386 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:28:23,547 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:29:23,682 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:30:23,819 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:31:23,956 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:32:24,107 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:33:24,900 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:34:25,334 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:35:25,771 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:36:25,922 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:37:26,368 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:38:26,494 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:39:26,741 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:40:27,217 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:41:27,327 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:42:27,985 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:43:28,444 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:44:28,904 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:45:29,341 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:46:29,444 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:47:29,560 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:48:30,015 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:49:30,122 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:50:30,548 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:51:30,990 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:52:31,449 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:53:31,881 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:54:32,318 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:55:32,754 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:56:33,205 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:57:33,317 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:58:33,444 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 14:59:33,880 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:00:34,385 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:01:34,832 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:02:35,317 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:03:35,765 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:04:36,223 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:05:36,672 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:06:36,798 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:07:37,235 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:08:37,721 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:09:38,165 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:10:38,957 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:11:39,094 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:12:39,565 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:13:40,012 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:14:40,160 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:15:40,609 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:16:41,090 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:17:41,538 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:18:41,987 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:19:42,446 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:20:42,916 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:21:43,364 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:22:43,957 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:23:44,394 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:24:44,874 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:25:45,324 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:26:45,772 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:27:46,220 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:28:46,689 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:29:47,149 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:30:47,597 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:31:48,045 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:32:48,527 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:33:48,975 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:34:49,422 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:35:49,859 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:36:50,023 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:37:50,489 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:38:50,927 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:39:51,063 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:40:51,224 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:41:51,348 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:42:51,473 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:43:51,911 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:44:52,393 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:45:52,829 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:46:52,966 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:47:53,413 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:48:53,883 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:49:54,321 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:50:54,769 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:51:54,894 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:52:55,045 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:53:55,480 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:54:55,594 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:55:56,053 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:56:56,691 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:57:56,816 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:58:56,941 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 15:59:57,068 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:00:57,260 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:01:57,365 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:02:57,814 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:03:58,262 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:04:58,743 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:05:59,190 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:06:59,628 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:07:59,764 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:09:00,233 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:10:00,683 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:11:01,119 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:12:01,286 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:13:01,726 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:14:02,396 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:15:02,833 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:16:02,988 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:17:03,118 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:18:03,566 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:19:04,359 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:20:04,828 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:21:04,944 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:22:05,058 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:23:05,463 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:24:05,842 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:25:06,226 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:26:06,674 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:27:06,811 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:28:06,996 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:29:07,918 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:30:08,032 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:31:08,191 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:32:08,362 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:33:08,809 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:34:09,257 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:35:09,716 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:36:10,095 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:37:10,568 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:38:11,160 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:39:11,649 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:40:12,112 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:41:12,571 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:42:13,030 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:43:13,511 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:44:13,998 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:45:14,473 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:46:14,677 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:47:15,170 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:48:15,661 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:49:15,998 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:50:16,227 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:51:16,428 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:52:16,975 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:53:17,523 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:54:17,993 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:55:18,464 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:56:18,632 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:57:19,082 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:58:19,530 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 16:59:20,022 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 17:00:20,812 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 17:01:21,318 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 17:02:21,799 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 17:03:22,336 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 17:04:22,829 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 17:05:23,306 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 17:06:23,782 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 17:07:23,897 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 17:08:24,386 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 17:09:24,831 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 17:10:25,274 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 17:11:25,478 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 17:12:25,958 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 17:13:26,430 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-22 17:14:26,784 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[ERROR] 2019-10-23 02:31:51,958 | /home/lenovo/frappe-training1/apps/frappe/frappe/app.py:
+Site: mdb.training1.local
+Form Dict: {
+ "cmd": "frappe.realtime.get_user_info",
+ "data": []
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/app.py", line 66, in application
+    response = frappe.api.handle()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/api.py", line 56, in handle
+    return frappe.handler.handle()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/__init__.py", line 1019, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+[ERROR] 2019-10-23 02:32:00,660 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/app.py", line 66, in application
+    response = frappe.api.handle()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/api.py", line 56, in handle
+    return frappe.handler.handle()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/__init__.py", line 1019, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[DEBUG] 2019-10-23 02:32:15,111 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 02:33:15,256 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 02:34:15,393 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 02:35:15,519 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 02:36:15,788 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 02:37:15,971 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 02:38:16,254 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 02:39:16,394 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 02:40:16,544 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 09:40:39,203 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 09:41:39,298 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 09:42:39,524 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 09:43:39,661 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 09:44:39,818 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 09:45:39,946 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 09:46:40,049 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 09:47:40,176 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 09:48:40,378 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 09:49:40,530 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 09:50:40,644 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 09:51:40,783 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 09:52:40,944 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 09:53:41,077 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 09:54:41,191 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 09:55:41,339 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 09:56:41,481 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 09:57:41,603 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 09:58:41,729 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 09:59:41,854 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 10:00:42,064 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 10:01:42,206 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 10:02:42,499 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 10:03:42,637 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 10:04:42,792 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 10:05:42,910 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 10:06:43,047 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 10:07:43,184 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 10:08:43,354 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[ERROR] 2019-10-23 10:08:58,403 | /home/lenovo/frappe-training1/apps/frappe/frappe/app.py:
+Site: mdb.training1.local
+Form Dict: {
+ "action": "Submit",
+ "cmd": "frappe.desk.form.save.savedocs",
+ "doc": "{\"name\":\"REQ-PINJAM-00003\",\"owner\":\"Administrator\",\"creation\":\"2019-10-23 10:08:55.720251\",\"modified\":\"2019-10-23 10:08:55.720251\",\"modified_by\":\"Administrator\",\"parent\":null,\"parentfield\":null,\"parenttype\":null,\"idx\":0,\"docstatus\":0,\"naming_series\":\"REQ-PINJAM-\",\"id_member\":\"M-MEMBER-002\",\"nama_member\":\"ww\",\"tanggal_pinjam\":\"2019-10-25\",\"estimasi_tanggal_kembali\":null,\"amended_from\":null,\"doctype\":\"Request Pinjaman\",\"data_line\":[{\"name\":\"b37e2b4289\",\"owner\":\"Administrator\",\"creation\":\"2019-10-23 10:08:55.720251\",\"modified\":\"2019-10-23 10:08:55.720251\",\"modified_by\":\"Administrator\",\"parent\":\"REQ-PINJAM-00003\",\"parentfield\":\"data_line\",\"parenttype\":\"Request Pinjaman\",\"idx\":1,\"docstatus\":0,\"code_buku\":\"M-BUKU-00001\",\"nama_buku\":\"wef\",\"tipe_buku\":\"atlas\",\"doctype\":\"Request Line\"}],\"__last_sync_on\":\"2019-10-23T03:08:55.878Z\"}"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/app.py", line 61, in application
+    response = frappe.handler.handle()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/__init__.py", line 1019, in call
+    return fn(*args, **newargs)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/desk/form/save.py", line 19, in savedocs
+    doc.submit()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/document.py", line 848, in submit
+    self._submit()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/document.py", line 837, in _submit
+    self.save()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/document.py", line 260, in save
+    return self._save(*args, **kwargs)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/document.py", line 313, in _save
+    self.run_post_save_methods()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/document.py", line 908, in run_post_save_methods
+    self.run_method("on_submit")
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/document.py", line 772, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/document.py", line 1048, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/document.py", line 1031, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/document.py", line 766, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/lenovo/frappe-training1/apps/libraryku/libraryku/libraryku/doctype/request_pinjaman/request_pinjaman.py", line 13, in on_submit
+    self.on_approve()
+  File "/home/lenovo/frappe-training1/apps/libraryku/libraryku/libraryku/doctype/request_pinjaman/request_pinjaman.py", line 27, in on_approve
+    pinjaman.save()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/document.py", line 260, in save
+    return self._save(*args, **kwargs)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/document.py", line 283, in _save
+    self.insert()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/document.py", line 216, in insert
+    self.set_new_name()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/document.py", line 378, in set_new_name
+    set_new_name(self)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/naming.py", line 42, in set_new_name
+    set_name_from_naming_options(autoname, doc)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/naming.py", line 71, in set_name_from_naming_options
+    set_name_by_naming_series(doc)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/naming.py", line 81, in set_name_by_naming_series
+    if not doc.naming_series:
+AttributeError: 'Pinjaman' object has no attribute 'naming_series'
+[ERROR] 2019-10-23 10:09:00,037 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/app.py", line 61, in application
+    response = frappe.handler.handle()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/__init__.py", line 1019, in call
+    return fn(*args, **newargs)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/desk/form/save.py", line 19, in savedocs
+    doc.submit()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/document.py", line 848, in submit
+    self._submit()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/document.py", line 837, in _submit
+    self.save()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/document.py", line 260, in save
+    return self._save(*args, **kwargs)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/document.py", line 313, in _save
+    self.run_post_save_methods()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/document.py", line 908, in run_post_save_methods
+    self.run_method("on_submit")
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/document.py", line 772, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/document.py", line 1048, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/document.py", line 1031, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/document.py", line 766, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/lenovo/frappe-training1/apps/libraryku/libraryku/libraryku/doctype/request_pinjaman/request_pinjaman.py", line 13, in on_submit
+    self.on_approve()
+  File "/home/lenovo/frappe-training1/apps/libraryku/libraryku/libraryku/doctype/request_pinjaman/request_pinjaman.py", line 27, in on_approve
+    pinjaman.save()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/document.py", line 260, in save
+    return self._save(*args, **kwargs)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/document.py", line 283, in _save
+    self.insert()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/document.py", line 216, in insert
+    self.set_new_name()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/document.py", line 378, in set_new_name
+    set_new_name(self)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/naming.py", line 42, in set_new_name
+    set_name_from_naming_options(autoname, doc)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/naming.py", line 71, in set_name_from_naming_options
+    set_name_by_naming_series(doc)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/model/naming.py", line 81, in set_name_by_naming_series
+    if not doc.naming_series:
+AttributeError: 'Pinjaman' object has no attribute 'naming_series'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[DEBUG] 2019-10-23 10:09:43,515 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 10:10:43,652 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[ERROR] 2019-10-23 10:11:27,275 | /home/lenovo/frappe-training1/apps/frappe/frappe/app.py:
+Site: mdb.training1.local
+Form Dict: {
+ "cmd": "frappe.realtime.get_user_info",
+ "data": []
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/app.py", line 66, in application
+    response = frappe.api.handle()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/api.py", line 56, in handle
+    return frappe.handler.handle()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/__init__.py", line 1019, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+[ERROR] 2019-10-23 10:11:27,391 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/app.py", line 66, in application
+    response = frappe.api.handle()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/api.py", line 56, in handle
+    return frappe.handler.handle()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/__init__.py", line 1019, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[DEBUG] 2019-10-23 10:12:22,314 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 10:13:22,443 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 10:14:22,692 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[ERROR] 2019-10-23 10:15:01,357 | /home/lenovo/frappe-training1/apps/frappe/frappe/app.py:
+Site: mdb.training1.local
+Form Dict: {
+ "cmd": "frappe.realtime.can_subscribe_doc",
+ "data": []
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/app.py", line 66, in application
+    response = frappe.api.handle()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/api.py", line 56, in handle
+    return frappe.handler.handle()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/__init__.py", line 1019, in call
+    return fn(*args, **newargs)
+TypeError: can_subscribe_doc() missing 3 required positional arguments: 'doctype', 'docname', and 'sid'
+[ERROR] 2019-10-23 10:15:01,477 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/app.py", line 66, in application
+    response = frappe.api.handle()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/api.py", line 56, in handle
+    return frappe.handler.handle()
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/__init__.py", line 1019, in call
+    return fn(*args, **newargs)
+TypeError: can_subscribe_doc() missing 3 required positional arguments: 'doctype', 'docname', and 'sid'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/lenovo/frappe-training1/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[DEBUG] 2019-10-23 10:15:58,039 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 10:16:58,186 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 10:17:58,312 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
+[DEBUG] 2019-10-23 10:18:58,438 | /home/lenovo/frappe-training1/apps/frappe/frappe/utils/scheduler.py:
+Site: mdb.training1.local
+Queued events for site mdb.training1.local
